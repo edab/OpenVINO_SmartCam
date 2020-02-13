@@ -8,8 +8,7 @@ An AI powered Smart Camera can improve the current thermal scanning checkpoints,
 - **Detect additional symptoms**: AI techniques can be used for detecting additional symptoms, like behavioral ‘events’ such as someone *sneezing* or *coughing*.
 - **Potential spread tracking**: AI techniques can be used for keep track of contact between peoples.
 
-
-The current focus of the project is on the last two point, mainly because is not involved tharmal scanning and the techniques required were in part seen during the Intel Edge AI challenge course.
+The current focus of the project is on the last two point, mainly because is not involved thermal scanning and the techniques required were in part seen during the Intel Edge AI challenge course.
 
 ## Symptoms detection
 
@@ -17,27 +16,38 @@ The pipeline for detecting sneezing or couching involve the use of pose estimati
 
 ![Coughing and Sneezing detection with AI](images/cough-sneeze-wuhan-ai-detection.jpg?raw=true)
 
+### Sneeze-Couch Dataset
+
+For validate the Symptoms detection we are evaluating two dataset:
+1. [BII Sneeze-Cough Human Action Video Dataset](https://web.bii.a-star.edu.sg/~chengli/FluRecognition/README.txt): A dataset for recognizing flu-like symptoms from videos, from _T. Thi, L. Cheng, L. Wang, N. Ye, J. Zhang, and S. Maurer-Stroh. Recognizing flu-like symptoms from videos. BMC Bioinformatics, 2014_.
+2. [Deepmind Kinetics](https://deepmind.com/research/open-source/kinetics): A large-scale, high-quality dataset of URL links to approximately 650,000 video clips that covers 700 human action classes
+
+### Preliminary test
+
+In the following image, a frame from the proper video of the _BII Sneeze-Cough Human Action Video Dataset_ is show.
+
+![S002_M_CALL_WLK_FCE.avi](images/human_pose_original.png)
+
+Using the pre-trained `Open Model Zoo` model _human-pose-estimation-0001_, we were able to extract the pose of the subject.
+
+![S002_M_CALL_WLK_FCE.avi](images/human_pose_detected.png)
+
 ## Human contact tracking
 
 The pipeline for detecting human contact involve the use of human detection models and the creation of an additional post-processing procedure.
 
 ![Human contact with infected people detection](images/human-contact-detection.jpg?raw=true)
 
+
 # Quickstart
 
-## Prerequisites
-You must first install the following libraries:
-
-```txt
-...
-```
 ## Usage
 Then, for run the application, you can use the following command:
 
 ```bash
 source /opt/intel/openvino/bin/setupvars.sh
 
-python app.py
+python sneeze-cough.py
 ```
 
 # References
@@ -46,3 +56,5 @@ python app.py
 2. [Sneeze dataset](https://research.google.com/audioset/balanced_train/sneeze.html)
 3. [Recognizing flu-like symptoms from videos](https://www.researchgate.net/publication/265607317_Recognizing_flu-like_symptoms_from_videos)
 4. [Action Recognition Datasets: "NTU RGB+D" Dataset and "NTU RGB+D 120" Dataset](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp)
+5. [Recognizing Flu-like Symptoms from Videos](https://web.bii.a-star.edu.sg/~chengli/FluRecognition.htm)
+7. [Pose-conditioned Spatio-Temporal Attention for Human Action Recognition](https://arxiv.org/pdf/1703.10106.pdf)
