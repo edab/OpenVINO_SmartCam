@@ -22,20 +22,17 @@ The pipeline for detecting human contact involve the use of human detection mode
 
 # Quickstart
 
+## Prerequisites
+
 You must first install the following libraries:
 
-```bash
+```txt
 ...
-```
-
-Then, for run the application, you can use the following command:
-
-```bash
-source /opt/intel/openvino/bin/setupvars.sh
-
-python app.py
 ```
 
 # References
 
 1. [How smart thermal cameras can mitigate the spread of the Wuhan Coronavirus](https://anyconnect.com/blog/smart-thermal-cameras-wuhan-coronavirus)
+2. [Sneeze dataset](https://research.google.com/audioset/balanced_train/sneeze.html)
+3. [Recognizing flu-like symptoms from videos](https://www.researchgate.net/publication/265607317_Recognizing_flu-like_symptoms_from_videos)
+4. [Action Recognition Datasets: "NTU RGB+D" Dataset and "NTU RGB+D 120" Dataset](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp)
