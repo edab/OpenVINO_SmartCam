@@ -15,19 +15,29 @@ The current focus of the project is on the last two point, mainly because is not
 
 The pipeline for detecting sneezing or couching involve the use of pose estimation models and the creation of an additional post-processing procedure.
 
+![Coughing and Sneezing detection with AI](images/cough-sneeze-wuhan-ai-detection.jpg?raw=true)
 
 ## Human contact tracking
 
 The pipeline for detecting human contact involve the use of human detection models and the creation of an additional post-processing procedure.
 
+![Human contact with infected people detection](images/human-contact-detection.jpg?raw=true)
+
 # Quickstart
 
 ## Prerequisites
-
 You must first install the following libraries:
 
 ```txt
 ...
+```
+## Usage
+Then, for run the application, you can use the following command:
+
+```bash
+source /opt/intel/openvino/bin/setupvars.sh
+
+python app.py
 ```
 
 # References
