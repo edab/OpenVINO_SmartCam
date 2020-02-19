@@ -41,6 +41,18 @@ The pipeline for detecting human contact involve the use of human detection mode
 
 # Quickstart
 
+This tool is based on Python and OpenVINO toolkit, and this guide is focused on Ubuntu 16.04 platform, although, with some small differences, can be installed and run on different OS.
+
+## Prerequisites
+
+Follow the original guide Install OpenVINO using the
+
+Download the Open Model Zoo models used using the OpenVINO utility:
+
+```bash
+/opt/intel/openvino/deployment_tools/open_model_zoo/tools/downloader/downloader.py --precisions FP32 --name human-pose-estimation-0001 -o models
+```
+
 ## Usage
 Then, for run the application, you can use the following command:
 
@@ -56,5 +68,5 @@ python sneeze-cough.py
 2. [Sneeze dataset](https://research.google.com/audioset/balanced_train/sneeze.html)
 3. [Recognizing flu-like symptoms from videos](https://www.researchgate.net/publication/265607317_Recognizing_flu-like_symptoms_from_videos)
 4. [Action Recognition Datasets: "NTU RGB+D" Dataset and "NTU RGB+D 120" Dataset](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp)
-5. [Recognizing Flu-like Symptoms from Videos](https://web.bii.a-star.edu.sg/~chengli/FluRecognition.htm)
+5. [Recognizing Flu-like Symptoms from Videos Article](https://web.bii.a-star.edu.sg/archive/machine_learning/Projects/FluRecognition.htmhttps://www.researchgate.net/profile/Sebastian_Maurer-Stroh/publication/265607317_Recognizing_flu-like_symptoms_from_videos/links/5592a59a08ae1e9cb4296b96/Recognizing-flu-like-symptoms-from-videos.pdf), [Full material access here](https://web.bii.a-star.edu.sg/~chengli/FluRecognition.htm)
 7. [Pose-conditioned Spatio-Temporal Attention for Human Action Recognition](https://arxiv.org/pdf/1703.10106.pdf)

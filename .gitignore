@@ -1,5 +1,6 @@
 # Local data storage
 tmp/
+models/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
