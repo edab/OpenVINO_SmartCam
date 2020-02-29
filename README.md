@@ -70,3 +70,4 @@ python sneeze-cough.py
 4. [Action Recognition Datasets: "NTU RGB+D" Dataset and "NTU RGB+D 120" Dataset](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp)
 5. [Recognizing Flu-like Symptoms from Videos Article](https://web.bii.a-star.edu.sg/archive/machine_learning/Projects/FluRecognition.htmhttps://www.researchgate.net/profile/Sebastian_Maurer-Stroh/publication/265607317_Recognizing_flu-like_symptoms_from_videos/links/5592a59a08ae1e9cb4296b96/Recognizing-flu-like-symptoms-from-videos.pdf), [Full material access here](https://web.bii.a-star.edu.sg/~chengli/FluRecognition.htm)
 7. [Pose-conditioned Spatio-Temporal Attention for Human Action Recognition](https://arxiv.org/pdf/1703.10106.pdf)
+8. [Video dataset overview](https://www.di.ens.fr/~miech/datasetviz/)
