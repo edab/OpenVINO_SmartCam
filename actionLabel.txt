@@ -11,10 +11,12 @@ archery
 arguing
 arm wrestling
 arranging flowers
+arresting
 assembling bicycle
 assembling computer
 attending conference
 auctioning
+baby waking up
 backflip (human)
 baking cookies
 bandaging
@@ -25,12 +27,15 @@ bathing dog
 battle rope training
 beatboxing
 bee keeping
+being excited
+being in zero gravity
 belly dancing
 bench pressing
 bending back
 bending metal
 biking through snow
 blasting sand
+blending fruit
 blowdrying hair
 blowing bubble gum
 blowing glass
@@ -41,6 +46,7 @@ bobsledding
 bodysurfing
 bookbinding
 bottling
+bouncing ball (not juggling)
 bouncing on bouncy castle
 bouncing on trampoline
 bowling
@@ -48,15 +54,16 @@ braiding hair
 breading or breadcrumbing
 breakdancing
 breaking boards
+breaking glass
 breathing fire
 brush painting
+brushing floor
 brushing hair
 brushing teeth
 building cabinet
 building lego
 building sandcastle
 building shed
-bull fighting
 bulldozing
 bungee jumping
 burping
@@ -69,9 +76,12 @@ capsizing
 card stacking
 card throwing
 carrying baby
+carrying weight
 cartwheeling
 carving ice
+carving marble
 carving pumpkin
+carving wood with a knife
 casting fishing line
 catching fish
 catching or throwing baseball
@@ -81,13 +91,14 @@ celebrating
 changing gear in car
 changing oil
 changing wheel (not on bike)
+chasing
 checking tires
+checking watch
 cheerleading
 chewing gum
 chiseling stone
 chiseling wood
 chopping meat
-chopping vegetables
 chopping wood
 clam digging
 clapping
@@ -101,28 +112,34 @@ cleaning windows
 climbing a rope
 climbing ladder
 climbing tree
+closing door
 coloring in
 combing hair
 contact juggling
 contorting
+cooking chicken
 cooking egg
 cooking on campfire
 cooking sausages (not on barbeque)
 cooking scallops
 cosplaying
+coughing
 counting money
 country line dancing
 cracking back
 cracking knuckles
 cracking neck
 crawling baby
+crocheting
 crossing eyes
 crossing river
 crying
 cumbia
 curling (sport)
+curling eyelashes
 curling hair
 cutting apple
+cutting cake
 cutting nails
 cutting orange
 cutting pineapple
@@ -132,8 +149,11 @@ dancing charleston
 dancing gangnam style
 dancing macarena
 deadlifting
+dealing cards
 decorating the christmas tree
+decoupage
 delivering mail
+digging
 dining
 directing traffic
 disc golfing
@@ -144,6 +164,7 @@ doing aerobics
 doing jigsaw puzzle
 doing laundry
 doing nails
+doing sudoku
 drawing
 dribbling basketball
 drinking shots
@@ -163,10 +184,13 @@ eating chips
 eating doughnuts
 eating hotdog
 eating ice cream
+eating nachos
 eating spaghetti
 eating watermelon
 egg hunting
 embroidering
+entering church
+exercising arm
 exercising with an exercise ball
 extinguishing fire
 faceplanting
@@ -177,10 +201,13 @@ feeding fish
 feeding goats
 fencing (sport)
 fidgeting
+filling cake
+filling eyebrows
 finger snapping
 fixing bicycle
 fixing hair
 flint knapping
+flipping bottle
 flipping pancake
 fly tying
 flying kite
@@ -189,6 +216,7 @@ folding napkins
 folding paper
 front raises
 frying vegetables
+gargling
 geocaching
 getting a haircut
 getting a piercing
@@ -200,6 +228,7 @@ golf driving
 golf putting
 gospel singing in church
 grinding meat
+grooming cat
 grooming dog
 grooming horse
 gymnastics tumbling
@@ -208,6 +237,9 @@ hand washing clothes
 head stand
 headbanging
 headbutting
+helmet diving
+herding cattle
+high fiving
 high jump
 high kick
 historical reenactment
@@ -241,6 +273,7 @@ juggling soccer ball
 jumping bicycle
 jumping into pool
 jumping jacks
+jumping sofa
 jumpstyle dancing
 karaoke
 kicking field goal
@@ -254,16 +287,21 @@ laughing
 lawn mower racing
 laying bricks
 laying concrete
+laying decking
 laying stone
 laying tiles
 leatherworking
+letting go of balloon
 licking
 lifting hat
+lighting candle
 lighting fire
+listening with headphones
 lock picking
 long jump
 longboarding
 looking at phone
+looking in mirror
 luge
 lunge
 making a cake
@@ -273,8 +311,10 @@ making bubbles
 making cheese
 making horseshoes
 making jewelry
+making latte art
 making paper aeroplanes
 making pizza
+making slime
 making snowman
 making sushi
 making tea
@@ -286,18 +326,24 @@ massaging feet
 massaging legs
 massaging neck
 massaging person's head
+metal detecting
 milking cow
+milking goat
+mixing colours
 moon walking
 mopping floor
 mosh pit dancing
 motorcycling
 mountain climber (exercise)
+moving baby
+moving child
 moving furniture
 mowing lawn
 mushroom foraging
 needle felting
 news anchoring
 opening bottle (not wine)
+opening coconuts
 opening door
 opening present
 opening refrigerator
@@ -307,16 +353,19 @@ paragliding
 parasailing
 parkour
 passing American football (in game)
-passing american football (not in game)
+passing American football (not in game)
 passing soccer ball
 peeling apples
+peeling banana
 peeling potatoes
 person collecting garbage
 petting animal (not cat)
 petting cat
+petting horse
 photobombing
 photocopying
-picking fruit
+picking apples
+picking blueberries
 pillow fight
 pinching
 pirouetting
@@ -324,13 +373,17 @@ planing wood
 planting trees
 plastering
 playing accordion
+playing american football
 playing badminton
 playing bagpipes
 playing basketball
 playing bass guitar
 playing beer pong
+playing billiards
 playing blackjack
+playing cards
 playing cello
+playing checkers
 playing chess
 playing clarinet
 playing controller
@@ -352,23 +405,31 @@ playing keyboard
 playing kickball
 playing laser tag
 playing lute
+playing mahjong
 playing maracas
 playing marbles
 playing monopoly
 playing netball
+playing nose flute
+playing oboe
 playing ocarina
 playing organ
 playing paintball
 playing pan pipes
 playing piano
+playing piccolo
 playing pinball
 playing ping pong
 playing poker
 playing polo
 playing recorder
+playing road hockey
+playing rounders
 playing rubiks cube
 playing saxophone
 playing scrabble
+playing shuffleboard
+playing slot machine
 playing squash or racquetball
 playing tennis
 playing trombone
@@ -378,14 +439,21 @@ playing violin
 playing volleyball
 playing with trains
 playing xylophone
+poaching eggs
 poking bellybutton
 pole vault
+polishing furniture
 polishing metal
 popping balloons
 pouring beer
+pouring milk
+pouring wine
 preparing salad
 presenting weather forecast
+pretending to be a statue
 pull ups
+pulling espresso shot
+pulling rope (game)
 pumping fist
 pumping gas
 punching bag
@@ -402,6 +470,7 @@ putting on lipstick
 putting on mascara
 putting on sari
 putting on shoes
+putting wallpaper on wall
 raising eyebrows
 reading book
 reading newspaper
@@ -423,18 +492,22 @@ robot dancing
 rock climbing
 rock scissors paper
 roller skating
+rolling eyes
 rolling pastry
 rope pushdown
 running on treadmill
 sailing
 salsa dancing
+saluting
 sanding floor
+sanding wood
 sausage making
 sawing wood
 scrambling eggs
 scrapbooking
 scrubbing face
 scuba diving
+seasoning food
 separating eggs
 setting table
 sewing
@@ -448,20 +521,27 @@ shaving legs
 shearing sheep
 shining flashlight
 shining shoes
+shoot dance
 shooting basketball
 shooting goal (soccer)
+shooting off fireworks
 shopping
 shot put
+shouting
 shoveling snow
+shredding paper
 shucking oysters
 shuffling cards
 shuffling feet
 side kick
+sieving
 sign language interpreting
+silent disco
 singing
 sipping cup
 situp
 skateboarding
+ski ballet
 ski jumping
 skiing crosscountry
 skiing mono
@@ -473,6 +553,7 @@ slacklining
 slapping
 sled dog racing
 sleeping
+slicing onion
 smashing
 smelling feet
 smoking
@@ -486,14 +567,21 @@ snowkiting
 snowmobiling
 somersaulting
 spelunking
+spinning plates
 spinning poi
+splashing water
 spray painting
+spraying
 springboard diving
 square dancing
 squat
+squeezing orange
+stacking cups
+stacking dice
 standing on hands
 staring
 steer roping
+steering car
 sticking tongue out
 stomping grapes
 stretching arm
@@ -501,11 +589,14 @@ stretching leg
 sucking lolly
 surfing crowd
 surfing water
+surveying
 sweeping floor
 swimming backstroke
 swimming breast stroke
 swimming butterfly stroke
 swimming front crawl
+swimming with dolphins
+swimming with sharks
 swing dancing
 swinging baseball bat
 swinging on something
@@ -514,6 +605,7 @@ sword swallowing
 tackling
 tagging graffiti
 tai chi
+taking photo
 talking on cell phone
 tango dancing
 tap dancing
@@ -538,8 +630,10 @@ tightrope walking
 tiptoeing
 tobogganing
 tossing coin
+tossing salad
 training dog
 trapezing
+treating wood
 trimming or shaving beard
 trimming shrubs
 trimming trees
@@ -550,6 +644,7 @@ tying knot (not on a tie)
 tying necktie
 tying shoe laces
 unboxing
+uncorking champagne
 unloading truck
 using a microscope
 using a paint roller
@@ -560,17 +655,21 @@ using atm
 using bagging machine
 using circular saw
 using inhaler
+using megaphone
 using puppets
 using remote controller (not gaming)
 using segway
+vacuuming car
 vacuuming floor
 visiting the zoo
 wading through mud
 wading through water
 waiting in line
 waking up
+walking on stilts
 walking the dog
 walking through snow
+walking with crutches
 washing dishes
 washing feet
 washing hair
@@ -580,6 +679,7 @@ water skiing
 water sliding
 watering plants
 waving hand
+waxing armpits
 waxing back
 waxing chest
 waxing eyebrows
@@ -598,4 +698,3 @@ yarn spinning
 yawning
 yoga
 zumba
-
