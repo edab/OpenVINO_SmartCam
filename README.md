@@ -11,6 +11,13 @@ The current focus of the project is on the detection of additional symptoms, mai
 
 > [How smart thermal cameras can mitigate the spread of the Wuhan Coronavirus](https://anyconnect.com/blog/smart-thermal-cameras-wuhan-coronavirus)
 
+
+## System architecture
+
+OpenVino Smart Camera system will include suerveillance cameras that are responsible capturing the frames in a public space and these frames will be sent into the edge for analysis using an openvino optimized deep learning model to run in th edge, in case any suspect action is detected a video with low datarate will be saved in the cloud server, and the agents will be notified by an alert about the case in the in monitor intened for the surveillance.
+
+![System architecture](images/edge_ai_architecture.png)
+
 ## Symptoms detection
 
 The pipeline to detect sneezing or coughing initially involved the use of pose estimation models and the creation of an additional post-processing procedure, based on some existing implementation (like discussed for example on the article [Pose-conditioned Spatio-Temporal Attention for Human Action Recognition](https://arxiv.org/pdf/1703.10106.pdf)).
@@ -55,6 +62,17 @@ After going through the test set looking for a good video to show in the results
 ![Coughing and Sneezing detection with AI](images/couch_inference.png)
 
 Using the model with the videos from BII Sneeze-Cough Human Action Dataset, the result show a very low confidence (5.97%) and a wrong action detected [75 - Country Line Dancing](https://gist.githubusercontent.com/willprice/f19da185c9c5f32847134b87c1960769/raw/9dc94028ecced572f302225c49fcdee2f3d748d8/kinetics_400_labels.csv).
+
+
+As the most videos of training set of kinects-400 are token from youtube, and the most of them are of sneezing babies, so for this reason the model tends to overfit sneezing babies, the below schrennshot show a positive detection case:
+
+![Sneezing baby detection](images/baby_sneezing.png)
+
+
+The result we expecting to make concret is a detection of people from a high angle in a public space like an airoport, and recognize actions like sneezing and coughting or even a high temperature when using thermal cameras, and persons that rised this kind of actions and symptomes will show in a red box, so that the agents responsible for surveillance take care of doing other diagnostic tests, the following image illustrates expected result:
+
+![Affected persons detection](images/action-reco.jpg)
+
 
 # Quickstart
 
