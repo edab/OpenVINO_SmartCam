@@ -11,6 +11,13 @@ The current focus of the project is on the detection of additional symptoms, mai
 
 > [How smart thermal cameras can mitigate the spread of the Wuhan Coronavirus](https://anyconnect.com/blog/smart-thermal-cameras-wuhan-coronavirus)
 
+
+## System architecture
+
+OpenVino Smart Camera system will include suerveillance cameras that are responsible capturing the frames in a public space and these frames will be sent into the edge for analysis using an openvino optimized deep learning model to run in th edge, in case any suspect action is detected a video with low datarate will be saved in the cloud server, and the agents will be notified by an alert about the case in the in monitor intened for the surveillance.
+
+![System architecture](images/edge_ai_architecture.png)
+
 ## Symptoms detection
 
 The pipeline to detect sneezing or coughing initially involved the use of pose estimation models and the creation of an additional post-processing procedure, based on some existing implementation (like discussed for example on the article [Pose-conditioned Spatio-Temporal Attention for Human Action Recognition](https://arxiv.org/pdf/1703.10106.pdf)).
