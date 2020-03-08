@@ -21,7 +21,7 @@ The result was not satisfactory, essentially because the pre-trained [Human pose
 
 We therefore opted for an implementation based on the pre-trained model of [action recognition](https://docs.openvinotoolkit.org/latest/_models_intel_action_recognition_0001_encoder_description_action_recognition_0001_encoder.html), which uses the [Kinetics-400 dataset](https://deepmind.com/research/open-source/kinetics), which unfortunately lacks coughing recognition.
 
-![Coughing and Sneezing detection with AI](images/cough-sneeze-wuhan-ai-detection.jpg?raw=true)
+![Coughing and Sneezing detection with AI](images/cough-sneeze-wuhan-ai-detection.jpg)
 
 For this reason, we decided on the next phase of this project, to create our own model of action recognition, using the [online guide available for OpenVINO](https://github.com/opencv/openvino_training_extensions/tree/develop/pytorch_toolkit/action_recognition), and on the Kinetics-700 dataset, which also includes coughing.
 
@@ -38,8 +38,8 @@ For validate the Symptoms detection we have identified different dataset, that a
 5. [Google AudioSet on Coughing with video](https://research.google.com/audioset/dataset/cough.html)
 6. [Google AudioSet on Sneezing with video](https://research.google.com/audioset/dataset/sneeze.html)
 
-### Preliminary test
-
+### Preliminary test using pose estimation
+images/cough-sneeze-wuhan-ai-detection.jpg?raw=true
 In the following image, a frame from the proper video of the _BII Sneeze-Cough Human Action Video Dataset_ is show.
 
 ![S002_M_CALL_WLK_FCE.avi](images/human_pose_original.png)
@@ -48,32 +48,55 @@ Using the pre-trained `Open Model Zoo` model _human-pose-estimation-0001_, we we
 
 ![S002_M_CALL_WLK_FCE.avi](images/human_pose_detected.png)
 
+### Preliminary test using action recognition
+
+After going through the test set looking for a good video to show in the results section, we realize that the most of them are of sneezing babies as people find that funny and share the videos of babies but there are few of old people, which makes the model kind of overfitting sneezing babies.
+
+![Coughing and Sneezing detection with AI](images/couch_inference.png)
+
+Using the model with the videos from BII Sneeze-Cough Human Action Dataset, the result show a very low confidence (5.97%) and a wrong action detected [75 - Country Line Dancing](https://gist.githubusercontent.com/willprice/f19da185c9c5f32847134b87c1960769/raw/9dc94028ecced572f302225c49fcdee2f3d748d8/kinetics_400_labels.csv).
+
 # Quickstart
 
 This tool is based on Python and OpenVINO toolkit, and this guide is focused on Ubuntu 16.04 platform, although, with some small differences, can be installed and run on different OS.
 
-## Prerequisites
+## Sneeze-Cough detection using pose estimation
 
-Follow the original guide Install OpenVINO using the
+The program `sneeze-cough.py` accept the following parameters:
 
-Download the Open Model Zoo models used using the OpenVINO utility:
+- `-h`: show the help message and exit
+- `-i I`: The location of the input file (default: 'dataset/biisc/videos/S003_M_COUG_WLK_FCE.avi')
+- `-d D`: Target device: CPU, GPU, FPGA, MYRIAD, MULTI:CPU,GPU, HETERO:FPGA,CPU (default: 'CPU')
+- `-m M`: The model to use ['POSE' or 'ACTION'] (default: 'POSE')
+- `-t T`: Threshold value for pose parts heat map (default: 0.5)
+
+The program can be evaluated using the following command:
 
 ```bash
-/opt/intel/openvino/deployment_tools/open_model_zoo/tools/downloader/downloader.py --precisions FP32 --name human-pose-estimation-0001 -o models
+python sneeze-cough.py
 ```
 
-## Usage
-Then, for run the application, you can use the following command:
+## Sneeze-Cough detection using action detection
+
+The program `action_recognition.py` accept the following parameters:
+
+- `-h`: Show this help message and exit.
+- `-m_en M_ENCODER`: Path to encoder model
+- `-m_de M_DECODER`: Path to decoder model
+- `-i INPUT`: Id of the video capturing device to open (to open default camera just pass 0) or path to a video or a .txt file with a list of ids or video files (one object per line)
+- `-l CPU_EXTENSION`: Absolute path to a shared library with the kernels implementation.
+- `-d DEVICE`: Specify a target device to infer on. CPU, GPU, FPGA, HDDL or MYRIAD is acceptable.
+- `--fps FPS`: FPS for renderer
+- `-lb LABELS`: Path to file with label names
+
+The program can be evaluated using the following command:
 
 ```bash
-source /opt/intel/openvino/bin/setupvars.sh
-
-python sneeze-cough.py
+python3 action_recognition.py -m_en models/intel/action-recognition-0001-encoder/FP32/action-recognition-0001-encoder.xml -m_de models/intel/action-recognition-0001-decoder/FP32/action-recognition-0001-decoder.xml -i dataset/biisc/videos/S003_M_COUG_WLK_LFT.avi
 ```
 
 # References
 
-
-5. [Recognizing Flu-like Symptoms from Videos](https://web.bii.a-star.edu.sg/~chengli/FluRecognition.htm)
-7. [Pose-conditioned Spatio-Temporal Attention for Human Action Recognition](https://arxiv.org/pdf/1703.10106.pdf)
-8. [Video dataset overview](https://www.di.ens.fr/~miech/datasetviz/)
+1. [Recognizing Flu-like Symptoms from Videos](https://web.bii.a-star.edu.sg/~chengli/FluRecognition.htm)
+2. [Pose-conditioned Spatio-Temporal Attention for Human Action Recognition](https://arxiv.org/pdf/1703.10106.pdf)
+3. [Video dataset overview](https://www.di.ens.fr/~miech/datasetviz/)
