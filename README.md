@@ -64,7 +64,7 @@ After going through the test set looking for a good video to show in the results
 Using the model with the videos from BII Sneeze-Cough Human Action Dataset, the result show a very low confidence (5.97%) and a wrong action detected [75 - Country Line Dancing](https://gist.githubusercontent.com/willprice/f19da185c9c5f32847134b87c1960769/raw/9dc94028ecced572f302225c49fcdee2f3d748d8/kinetics_400_labels.csv).
 
 
-As the most videos of training set of kinects-400 are token from youtube, and the most of them are of sneezing babies, so for this reason the model tends to overfit sneezing babies, the below schrennshot show a positive detection case:
+As the most videos of training set of kinects-400 are token from youtube, and the most of them are of sneezing babies, so for this reason the model tends to overfit sneezing babies, the below screenshot show a positive detection case:
 
 ![Sneezing baby detection](images/baby_sneezing.png)
 
